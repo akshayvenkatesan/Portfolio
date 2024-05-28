@@ -19,7 +19,7 @@ const StyledHeroSection = styled.section`
 
   h1 {
     margin: 0 0 30px 4px;
-    color: var(--green);
+    color: var(--purple);
     font-family: var(--font-mono);
     font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
     font-weight: 400;
@@ -60,18 +60,18 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Akshay Venkatesan.</h2>;
+  const three = (
+    <h3 className="big-heading">I build simple solutions for complex data problems.</h3>
+  );
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
-        </a>
-        .
+        I’m a software engineer specializing in building solutions in the realm of Big Data
+        Engineering, Distributed Systems, and Machine Learning. Currently, I’m pursuing my Master’s
+        in Computer Science at Stony Brook University. I have experience in building scalable and
+        efficient systems that solve real-world problems. I’m passionate about learning new
+        technologies and building solutions that make a difference.
       </p>
     </>
   );
