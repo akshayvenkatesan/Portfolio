@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://brittanychiang.com/sitemap.xml
-Host: https://brittanychiang.com
+Sitemap: https://portfolio-akshayvenkatesans-projects.vercel.app/Portfolio/sitemap-index.xml
+Host: https://portfolio-akshayvenkatesans-projects.vercel.app
